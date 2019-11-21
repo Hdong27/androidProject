@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#189eea">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dip"
+        android:text="전자발찌 위치감지"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="60dip"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:text="기능 활성화 상태"/>
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:src="@drawable/beacon"
+        android:layout_width="179dp"
+        android:layout_height="179dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:text="범죄자를 탐지하고 있습니다 "
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#DD880000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"/>
+
+    <ImageView
+        android:id="@+id/ivLogo2"
+        android:src="@raw/loading"
+        android:layout_marginTop="30dip"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
