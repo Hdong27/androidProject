@@ -27,7 +27,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA9d9FxdgLf1ciaelCAI0DsB5nab721MO8" />
+            android:value="" />
         <activity android:name=".FakeRingerActivity"
             android:excludeFromRecents="true"
             android:screenOrientation="portrait">
